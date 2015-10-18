@@ -1,0 +1,32 @@
+Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 10:45:13) [MSC v.1600 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+
+Correct Ham Percentage:      98.5
+Correct Spam Percentage:     92.5
+Correct Overall Percentage:  95.5
+
+Ham Incorrectly Labelled as Spam:
+	hamtesting (44).txt
+	hamtesting (85).txt
+	hamtesting (89).txt
+
+Spam Incorrectly Labelled as Ham:
+	spamtesting (1).txt
+	spamtesting (10).txt
+	spamtesting (13).txt
+	spamtesting (134).txt
+	spamtesting (171).txt
+	spamtesting (28).txt
+	spamtesting (4).txt
+	spamtesting (5).txt
+	spamtesting (66).txt
+	spamtesting (73).txt
+	spamtesting (8).txt
+	spamtesting (83).txt
+	spamtesting (84).txt
+	spamtesting (9).txt
+	spamtesting (90).txt
+
+>>> 
