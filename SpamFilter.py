@@ -10,7 +10,7 @@ def lexicon(k = 5):
     ham_training_directory  = os.getcwd() + '/emails/hamtraining'
 
     # Create spam distribution
-    spam_distribution = collections.defaultdict(int)
+    spam_distribution = collections.defaultdict(lambda: 1)
     files = os.listdir(spam_training_directory)
     
     for f_name in files:
@@ -18,7 +18,7 @@ def lexicon(k = 5):
         for word in list_of_words:
                 spam_distribution[word] += 1
 
-    ham_distribution = collections.defaultdict(int)
+    ham_distribution = collections.defaultdict(lambda: 1)
     files = os.listdir(ham_training_directory)
     for f_name in files:
         list_of_words = words(ham_training_directory + '/' + f_name)
